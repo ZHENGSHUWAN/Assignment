@@ -165,18 +165,33 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <hr>
     
     <h4>Videos</h4>
-    <!-- Progress bars / Skills -->
+    <!-- Progress bars / video -->
+    <style>
+     .video-containerShantou {
+     max-width: 100%;
+     height: auto;
+      }
+     .video-containerShantou video {
+      width: auto;
+      max-height: 650px; 
+      }
+    </style>
+
     <p>MagicTime in Library</p>
-    <video controls>
-      <source src="video/library.mp4" type="video/mp4"></video>
+     <div class='video-container'>
+       <video controls>
+       <source src="video/library.mp4" type="video/mp4"></video>
+     </div>
     <p>Met BU in MTR</p>
-      <div class='hover-video'>
+      <div class='video-container'>
         <video controls>
-          <source src="video/bu.mp4" type="video/mp4"></video>
+          <source src="video/bu.mp4" type="video/mp4" ></video>
       </div>
     <p>ShanTou Time</p>
-    <video controls>
-      <source src="video/shantou.mp4" type="video/mp4"></video>
+     <div class='video-containerShantou' >
+       <video controls>
+       <source src="video/shantou.mp4" type="video/mp4"></video>
+     </div>
     <p>
       <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
         <i class="fa fa-download w3-margin-right"></i>Download Resume
