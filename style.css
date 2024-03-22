@@ -6,7 +6,7 @@
 
 .video-container {
   width: 80%;
-  max-width: 750px; 
+  max-width: 750px; /* 调整为您想要的宽度 */
   height: auto;
 }
 .video-container video {
